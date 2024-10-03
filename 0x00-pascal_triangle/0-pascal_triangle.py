@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 def pascal_triangle(n):
     """Return Pascal's triangle of size n."""
     if n <= 0:
