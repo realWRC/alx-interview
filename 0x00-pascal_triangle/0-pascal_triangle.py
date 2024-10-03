@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Contains function that prints pascals triangle"""
 
+
 def pascal_triangle(n):
     """Return Pascal's triangle of size n."""
 
