@@ -1,4 +1,4 @@
-# #!/usr/bin/python3
+#!/usr/bin/python3
 # """
 # A python script solution for alx-interview problems
 # """
@@ -43,7 +43,6 @@
 # except KeyboardInterrupt:
 #     print_stats()
 #     raise
-#!/usr/bin/python3
 """
 A python script solution for alx-interview problems
 """
