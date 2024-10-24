@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-# """
-# A python script solution for alx-interview problems
-# """
+"""
+A python script solution for alx-interview problems
+"""
 #
 # import sys
 # import re
@@ -43,10 +43,6 @@
 # except KeyboardInterrupt:
 #     print_stats()
 #     raise
-"""
-A python script solution for alx-interview problems
-"""
-
 import sys
 
 
@@ -72,7 +68,6 @@ try:
         if len(line_list) > 4:
             status_code = line_list[-2]
             file_size = line_list[-1]
-
             try:
                 total_file_size += int(file_size)
             except ValueError:
@@ -82,9 +77,7 @@ try:
                 status_codes[status_code] = status_codes.get(
                         status_code, 0
                 ) + 1
-
             line_count += 1
-
             if line_count == 10:
                 print_stats()
                 line_count = 0
