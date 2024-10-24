@@ -25,7 +25,6 @@ def print_stats():
 try:
     for line in sys.stdin:
         line = line.strip()
-        line_count += 1
         try:
             match = pattern.match(line)
             if match:
@@ -36,10 +35,11 @@ try:
                     status_codes[status_code] = status_codes.get(
                             status_code, 0
                     ) + 1
+                line_count += 1
+            if line_count % 10 == 0:
+                print_stats()
         except Exception as e:
             pass
-        if line_count % 10 == 0:
-            print_stats()
 except KeyboardInterrupt:
     print_stats()
     raise
