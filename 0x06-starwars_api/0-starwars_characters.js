@@ -1,5 +1,6 @@
-#!/usr/bin/env node
-// Script that prints all characters of a Star Wars movie in order
+#!/usr/bin/node
+// Script that prints all characters of a Star Wars movie given
+// a title ID by the user
 
 const request = require('request');
 const movieId = process.argv[2];
