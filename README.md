@@ -7,3 +7,4 @@ Repository of solutions for interview problems.
 - 0x03. Log Parsing
 - 0x04. UTF-8 Validation
 - 0x06-starwars_api
+- 0x07. Rotate 2D Matrix
