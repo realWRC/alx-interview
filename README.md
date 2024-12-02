@@ -8,3 +8,4 @@ Repository of solutions for interview problems.
 - 0x04. UTF-8 Validation
 - 0x06-starwars_api
 - 0x07. Rotate 2D Matrix
+- 0x08. Island Perimeter
