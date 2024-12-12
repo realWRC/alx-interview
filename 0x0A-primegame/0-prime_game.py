@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 def isWinner(x, nums):
     """ Evaluates the winner of the prime game over multiple rounds.
     """
